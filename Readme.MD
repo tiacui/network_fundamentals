@@ -23,3 +23,9 @@ http://bb.im5.org/learning/lesson1.php?username=john&color=blue
 
 2) Inspect the HTTP ```request & response```
 
+- use Chrome "Developer Tool"
+  - visit the URL in Chrome -> ```right click``` -> ```Inspect``` -> ```Network``` -> ```refresh``` -> check ```Response```, ```Preview```, ```Headers```
+
+- use CURL
+  - in ```cmd.exe``` -> run ```curl -i "http://bb.im5.org/learning/lesson1.php?username=john&color=blue"```
+  - inspect the HTTP headers, HTTP body in the response
