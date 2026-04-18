@@ -65,4 +65,6 @@ http://bb.im5.org/learning/lesson1.php?username=john&color=blue
 - run command ```tracert bb.im5.org``` and observe:
   - what is the first hop
 
-
+- run command ```nslookup``` and type ```bb.im5.org``` and observe:
+  - what is the DNS server
+  - what is the IP resolved for ```bb.im5.org```
