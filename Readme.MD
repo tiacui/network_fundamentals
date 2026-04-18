@@ -62,7 +62,7 @@ http://bb.im5.org/learning/lesson1.php?username=john&color=blue
   - what is the DNS server
   - if DHCP is Enabled
 
-- run command ```tracert www.google.com``` and observe:
+- run command ```tracert bb.im5.org``` and observe:
   - what is the first hop
 
 
