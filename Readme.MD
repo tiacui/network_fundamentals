@@ -49,6 +49,20 @@ http://bb.im5.org/learning/lesson1.php?username=john&color=blue
 - in cmd.exe, run ```telnet 192.168.1.102 4000``` to connect to port 4000 on ```192.168.1.102```
 - in the telnet window, enter random string and press enter, it can be observed the string shown in the remote windows of ```192.168.1.102```
 
+5), HTTP and HTTPS ports by default
+- by default, HTTP use port 80, HTTPS use port 443
+- use browser to visit ```https://bb.im5.org/learning/lesson1.php?username=john&color=blue``` and ```https://bb.im5.org:443/learning/lesson1.php?username=john&color=blue```
+  - is the result the same? why?
 
+6), how computers connect to a network
+- under ```cmd.exe```, run command ```ipconfig /all``` and observe:
+  - what is the IP address
+  - what is the gateway IP
+  - what is the Subnet Mask
+  - what is the DNS server
+  - if DHCP is Enabled
+
+- run command ```tracert www.google.com``` and observe:
+  - what is the first hop
 
 
