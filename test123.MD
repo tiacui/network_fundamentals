@@ -64,4 +64,44 @@ name: "Oscar Smith" course_name: aaa course_score: 89
 
 ```
 https://im5.org/learning/pets.php?customers=2
+
+{
+    "count": 2,
+    "customers": [
+        {
+            "name": "John",
+            "mobile": "0422842379",
+            "age": 71,
+            "gender": "male",
+            "pets": []
+        },
+        {
+            "name": "David",
+            "mobile": "0422785806",
+            "age": 41,
+            "gender": "female",
+            "pets": [
+                {
+                    "age": 10,
+                    "species": "dog",
+                    "weight": 19.6,
+                    "gender": "male"
+                },
+                {
+                    "age": 15,
+                    "species": "rabbit",
+                    "weight": 26.5,
+                    "gender": "male"
+                },
+                {
+                    "age": 15,
+                    "species": "hamster",
+                    "weight": 7.1,
+                    "gender": "male"
+                }
+            ]
+        }
+    ]
+}
+
 ```
